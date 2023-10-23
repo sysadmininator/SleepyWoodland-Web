@@ -33,5 +33,6 @@ body, html {
     bottom: 10%;
     left: 50%;
     transform: translateX(-50%);
-    transition: transform 1s ease-in-out;
+    transition: opacity 1s ease-in-out; /* Add this line */
+    opacity: 1; /* Add this line */
 }
